@@ -47,7 +47,7 @@ exports.rwGenSR_waterMask = function(MAXDISTANCE, FILL_SIZE, MAXDISTANCE_BRANCH_
     // calculate river mask
     var imgOut = riverFun.ExtractRiver(img, grwl, MAXDISTANCE, FILL_SIZE);
     // calculate centerline
-    imgOut = clWidthFun.CalculateCenterline(imgOut);
+    imgOut = clWidthFun.CalculateCenterline(imgOut, MAXDISTANCE_BRANCH_REMOVAL);
     // calculate orthogonal direction of the centerline
     imgOut = clWidthFun.CalculateOrthAngle(imgOut);
     // export widths
