@@ -8,3 +8,8 @@ The scientific hypothesis is quite simple here that the repeated RIVER WIDTH mea
 Many satellite-based river discharge estimation methods use river width observation as an input to their modeling platforms.
 
 River width measurements will help us monitor millions of ungauged river reaches worldwide with the help of the forthcoming Surface Water and Ocean Topography (SWOT) mission.
+
+# Calculating River Width
+1) The first step is the extract river maks from satellite data, 
+2) Use existing river centerline or derive river centerline from the river mask, 
+3) Measure the river widths along the river centerline 
